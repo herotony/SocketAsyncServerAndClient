@@ -1,0 +1,5 @@
+D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketAsyncServer\bin\Debug\SocketAsyncServer.exe
+D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketAsyncServer\bin\Debug\SocketAsyncServer.pdb
+D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketAsyncServer\obj\Debug\ResolveAssemblyReference.cache
+D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketAsyncServer\obj\Debug\SocketAsyncServer.exe
+D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketAsyncServer\obj\Debug\SocketAsyncServer.pdb

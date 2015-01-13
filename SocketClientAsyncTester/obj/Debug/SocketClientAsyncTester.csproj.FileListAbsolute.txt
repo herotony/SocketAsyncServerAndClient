@@ -1,0 +1,5 @@
+D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketClientAsyncTester\bin\Debug\SocketClientAsyncTester.exe
+D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketClientAsyncTester\bin\Debug\SocketClientAsyncTester.pdb
+D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketClientAsyncTester\obj\Debug\ResolveAssemblyReference.cache
+D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketClientAsyncTester\obj\Debug\SocketClientAsyncTester.exe
+D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketClientAsyncTester\obj\Debug\SocketClientAsyncTester.pdb
