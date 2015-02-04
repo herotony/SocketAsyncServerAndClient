@@ -1,8 +1,15 @@
 ﻿<Properties StartupItem="SocketAsyncServer.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BufferManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SocketListener.cs">
     <Files>
-      <File FileName="BufferManager.cs" Line="27" Column="27" />
+      <File FileName="OutgoingDataPreparer.cs" Line="3" Column="3" />
+      <File FileName="AcceptOpUserToken.cs" Line="1" Column="1" />
+      <File FileName="Mediator.cs" Line="1" Column="1" />
+      <File FileName="DataHolder.cs" Line="1" Column="1" />
+      <File FileName="SocketListener.cs" Line="32" Column="32" />
+      <File FileName="Program.cs" Line="23" Column="23" />
+      <File FileName="MessageHandler.cs" Line="3" Column="3" />
+      <File FileName="PrefixHandler.cs" Line="3" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

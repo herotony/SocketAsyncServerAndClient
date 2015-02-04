@@ -3,3 +3,8 @@ D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketAsyncServer\bin\Debug\SocketA
 D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketAsyncServer\obj\Debug\ResolveAssemblyReference.cache
 D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketAsyncServer\obj\Debug\SocketAsyncServer.exe
 D:\HeroTonyGitHub\SocketAsyncServerAndClient\SocketAsyncServer\obj\Debug\SocketAsyncServer.pdb
+D:\GitHubData\SocketAsyncServerAndClient\SocketAsyncServer\bin\Debug\SocketAsyncServer.exe
+D:\GitHubData\SocketAsyncServerAndClient\SocketAsyncServer\bin\Debug\SocketAsyncServer.pdb
+D:\GitHubData\SocketAsyncServerAndClient\SocketAsyncServer\obj\Debug\ResolveAssemblyReference.cache
+D:\GitHubData\SocketAsyncServerAndClient\SocketAsyncServer\obj\Debug\SocketAsyncServer.exe
+D:\GitHubData\SocketAsyncServerAndClient\SocketAsyncServer\obj\Debug\SocketAsyncServer.pdb

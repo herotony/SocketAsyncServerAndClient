@@ -157,6 +157,8 @@ namespace SocketAsyncServer
                     Console.WriteLine("Could not close log properly.");
                 }
             }
+
+			Console.ReadKey ();
         }
 
         //____________________________________________________________________________

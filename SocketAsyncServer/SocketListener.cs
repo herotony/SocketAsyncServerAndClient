@@ -9,6 +9,7 @@ using System.Diagnostics; //for testing
 
 
 
+
 namespace SocketAsyncServer
 {   //____________________________________________________________________________
     // Implements the logic for the socket server.  
@@ -23,8 +24,8 @@ namespace SocketAsyncServer
         //****for testing threads
         Process theProcess; //for testing only
         ProcessThreadCollection arrayOfLiveThreadsInThisProcess;   //for testing
-        HashSet<int> managedThreadIds = new HashSet<int>();  //for testing
-        HashSet<Thread> managedThreads = new HashSet<Thread>();  //for testing        
+		//System.Collections.Generic.HashSet<int> managedThreadIds = new System.Collections.Generic.HashSet<int>();  //for testing
+		//System.Collections.Generic.HashSet<Thread> managedThreads = new System.Collections.Generic.HashSet<Thread>();  //for testing        
         //object that will be used to lock the HashSet of thread references 
         //that we use for testing.
         private object lockerForThreadHashSet = new object();
@@ -994,11 +995,11 @@ namespace SocketAsyncServer
             bool newThreadChecker = false;
             lock (this.lockerForThreadHashSet)
             {
-                if (managedThreadIds.Add(Thread.CurrentThread.ManagedThreadId) == true)
-                {
-                    managedThreads.Add(Thread.CurrentThread);
-                    newThreadChecker = true;
-                }
+//                if (managedThreadIds.Add(Thread.CurrentThread.ManagedThreadId) == true)
+//                {
+//                    managedThreads.Add(Thread.CurrentThread);
+//                    newThreadChecker = true;
+//                }
             }
             if (newThreadChecker == true)
             {
@@ -1017,21 +1018,21 @@ namespace SocketAsyncServer
                 //Note that there is NOT a 1:1 ratio between managed threads 
                 //and system (native) threads.
                 sb.Append("\r\nManaged threads that have been used: ");               
-                foreach (Int32 theManagedThreadId in managedThreadIds)
-                {
-                    sb.Append(theManagedThreadId.ToString() + ", ");                    
-                }
+//                foreach (Int32 theManagedThreadId in managedThreadIds)
+//                {
+//                    sb.Append(theManagedThreadId.ToString() + ", ");                    
+//                }
 
                 //Managed threads above were/are being used.
                 //Managed threads below are still being used now.
                 sb.Append("\r\nManagedthread.IsAlive true: ");                
-                foreach (Thread theManagedThread in managedThreads)
-                {
-                    if (theManagedThread.IsAlive == true)
-                    {
-                        sb.Append(theManagedThread.ManagedThreadId.ToString() + ", ");
-                    }
-                }                
+//                foreach (Thread theManagedThread in managedThreads)
+//                {
+//                    if (theManagedThread.IsAlive == true)
+//                    {
+//                        sb.Append(theManagedThread.ManagedThreadId.ToString() + ", ");
+//                    }
+//                }                
                 sb.Append("\r\nEnd thread info.");
             }
             return sb.ToString();
